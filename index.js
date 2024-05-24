@@ -50,7 +50,7 @@ function validateForm(event) {
       phone: phone,
       gender: gender,
     };
-    fetch("database.json", {
+    fetch("/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
